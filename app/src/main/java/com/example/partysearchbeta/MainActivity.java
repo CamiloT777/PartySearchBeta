@@ -31,7 +31,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 FloatingActionButton fab;
-
+    //Creación de la variable para el bar de navegación
     private AppBarConfiguration mAppBarConfiguration;
 
     @Override
