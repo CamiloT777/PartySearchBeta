@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.partysearchbeta.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.partysearchbeta.ui.local_gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_local" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.partysearchbeta.ui.seguridad_slides.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_seguridad" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.partysearchbeta.ui.djs_tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_djs" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.partysearchbeta.ui.mesero_share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_mesero" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.partysearchbeta.ui.cocinero_send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_cocinero" />
+</navigation>
