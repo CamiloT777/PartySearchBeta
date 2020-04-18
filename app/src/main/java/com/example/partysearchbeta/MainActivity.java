@@ -40,8 +40,6 @@ FloatingActionButton fab;
         setContentView(R.layout.activity_main);
 
 
-
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
