@@ -8,10 +8,6 @@ public class persona {
     private String persona_corre_electronico;
     private String persona_telefono;
 
-    public persona(int persona_codigo) {
-        this.persona_codigo = persona_codigo;
-    }
-
     public persona(int persona_codigo, String persona_nombre, String persona_apellido, String persona_corre_electronico, String persona_telefono) {
         this.persona_codigo = persona_codigo;
         this.persona_nombre = persona_nombre;
